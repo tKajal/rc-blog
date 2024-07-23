@@ -1,6 +1,6 @@
 import React from 'react'
 import './Styles.css'
-const SearchBar = ({ value, handleSearchKey, clearSearch, handlSubmit}) => {
+const SearchBar = ({ value, handleSearchKey, clearSearch, handlSubmit }) => {
     return (
         <div className='search-wrap'>
             <form onSubmit={handlSubmit}>
