@@ -1,0 +1,42 @@
+.blog-detail {
+    margin: 60px auto;
+
+    header {
+        text-align: center;
+    }
+
+    .created-date {
+        color: #a9a9a9;
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    .subcat-wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    .subcat-wrap > div {
+        margin: .5rem;
+    }
+
+    img {
+        width: 100%;
+        margin: 1rem;
+
+    }
+
+    .blog-desc {
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
+}
+
+.link-wrap a{
+    text-align: start;
+    text-decoration: none;
+    color: #a9a9a9;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 2rem;
+}

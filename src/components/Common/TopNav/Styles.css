@@ -1,0 +1,30 @@
+.container{
+    text-align: center;
+}
+.card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+span.flag {
+    width: 44px;
+    height: 30px;
+    display: inline-block;
+}
+img.flag {
+    width: 30px;
+}
+.flag {
+    background: url(https://primefaces.org/cdn/primereact/images/flag/flags_responsive.png)
+        no-repeat;
+    background-size: 100%;
+    vertical-align: middle;
+}
+.p-menubar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: none;
+}

@@ -1,11 +1,15 @@
 import React from 'react';
 import './Styles.css'
+import TopNav from '../../Common/TopNav/Index';
 const Header = () =>
 
     <header className='home-header'>
-        <h2>hello head</h2>
-        <h1><span>yutuytu</span></h1>
-        <p>uiyttuytytryrytrryytry tr <br />hjjjtguyr yttuy tyutiyt</p>
+        <TopNav />
+        <div  className='container' >
+        <h1>Connecting <span> People, Projects and Products </span> worldwide</h1>
+        <p>Get the email newsletter and unlock access to members-only content and updates</p>
+        </div>
+       
     </header>
 
 

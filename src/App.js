@@ -6,7 +6,7 @@ import Blog from './pages/Blog/Index';
 import { BrowserRouter, Routes } from 'react-router-dom';
 function App() {
   return (
-    <div className='container' >
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path='/home' Component={Home} />
