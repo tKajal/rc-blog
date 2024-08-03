@@ -1,7 +1,7 @@
 .home-header{
     text-align: center;
     p{
-        color: #a9a9a9;
+        color: #acb7c2;
         font-weight: 500;
     }
     h2{
@@ -10,13 +10,24 @@
     }
     h1{
         font-size: 3rem;
-        color: #0f52ba;
+        color: #124E66;
         margin-bottom: 1rem;
         margin-top: 3rem;
+        font-weight: 700 !important;
         /* padding: 0 4rem; */
         span{
-            color: #b0c4de;
+            color: #acb7c2;
+            text-transform: lowercase;
         }
     }
 }
-
+.top-nav{
+    margin-bottom: 70px;
+    top: 0;
+    background: none;
+}
+.banner-wrap{
+    width: 80% !important;
+    padding-top: 100px !important;
+   
+}

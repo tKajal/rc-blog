@@ -1,3 +1,13 @@
 .content{
     display: flex;
+    height: auto;
+    z-index: 1;
+    position: relative;
+}
+.feature-blogs{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.main-wrap{
+    
 }

@@ -25,6 +25,29 @@ img.flag {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
+    background-color:none;
     border: none;
+    margin-bottom: 0;
+    font-weight: 500;
+    border: none;
+    height: 68px;
+}
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+    top: 0;
+}
+.nav-wrap{
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #fff;
+}
+.p-menuitem-text,.p-menuitem-link, .p-menubar-start{
+    color: #fff;
+    text-decoration: none;
+}
+.p-menubar-root-list{
+   margin-bottom: 0;
 }

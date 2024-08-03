@@ -6,7 +6,7 @@ const BlogList = ({ blogs }) => {
 
   return (
     <>
-      <div className='blog-wrap card'>
+      <div className='blog-wrap'>
         {blogs?.map(blog => {
           return <BlogItem blog={blog} key={blog.id} />
         })}

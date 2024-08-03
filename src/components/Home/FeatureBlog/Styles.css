@@ -1,24 +1,40 @@
-.feature-blogs{
+.feature-blogs {
     width: 30%;
 }
-
-.blog-card{
+.feature-blog-card{
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #DADADA;
+    overflow: hidden;
+    clear: both;
+}
+.blog-card {
     background: #fff9f3;
-    margin: 2rem;
+}
+
+.widget-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #636467;
+    text-align: justify;
 }
 
 .feature-blogitem-wrap {
+    clear: both;
+    margin-bottom: 20px;
     display: flex;
     height: 80%;
-    width: 80%;
-    justify-content: space-between;
+    width: 100%;
+    /* justify-content: space-between; */
     margin-bottom: 5rem;
 
     .feature-blog-cover {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-radius: 10px;
+        /* border-radius: 10px; */
         margin-bottom: 0.5rem;
         margin-right: 1rem;
     }
@@ -27,10 +43,20 @@
         margin: 0.5rem 0 1rem 0;
         flex: 1;
     }
-    .feature-blog-item-img{
-        width: 100%;
-        height: 100%;
+
+    .feature-blog-item-img {
+        width: 60px;
+        height: 60px;
+        float: left;
+        display: block;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        background-color: #DADADA;
+        background-position: center center;
+        background-repeat: no-repeat;
+        overflow: hidden;
     }
+
     .feature-blog-desc {
         position: relative;
         max-height: 50px;
@@ -40,8 +66,9 @@
         color: #a9a9a9;
     }
 
-    .feature-blog-item-detail{
+    .feature-blog-item-detail {
         margin-left: 1rem;
+        text-align: justify;
     }
 
     .feature-blog-desc::before {
@@ -54,8 +81,8 @@
     footer {
         display: flex;
         align-items: center;
-        margin-top: 1rem;
-        justify-content: space-between;
+        justify-content: end;
+        margin-top: -3px;
     }
 
     .feature-blog-link {
@@ -83,4 +110,24 @@
             font-weight: 600;
         }
     }
+}
+.border{
+    height: 2px;
+    background: #ff4c60;
+    content: '';
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin-left: 15px;
+    min-width: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }

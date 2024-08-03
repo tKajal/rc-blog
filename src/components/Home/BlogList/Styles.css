@@ -1,6 +1,8 @@
 .blog-wrap{
     display: block;
     width: 70%;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 @media(max-width=768px){

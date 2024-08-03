@@ -9,7 +9,7 @@ const BlogItem = ({ blog }) => {
         <img className='blog-cover' src={blog.cover} alt="cover" />
       </div>
       <div className='blog-item-detail'>
-        <h3>{blog.title}</h3>
+        <h3 className='blog-item-title'>{blog.title}</h3>
         <p className='blog-desc'>{blog.description}</p>
         <div className='blog-footer'>
 
@@ -22,10 +22,11 @@ const BlogItem = ({ blog }) => {
         {/* <Chip label={blog.category} /> */}
 
         <footer>
-
-          <Link className='blog-link' to={`/blog/${blog.id}`}>
-            go
-          </Link>
+          <div className='more-btn'>
+            <Link className='blog-link' to={`/blog/${blog.id}`}>
+              More
+            </Link>
+          </div>
         </footer>
       </div>
 

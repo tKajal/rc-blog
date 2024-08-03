@@ -8,7 +8,7 @@ export const blogListData=[
         authorName:'Adriana Martins',
         authorAvatar:'/assets/images/bavt.jpg',
         createdAt:'January 24, 2023',
-        cover:'/assets/images/b2.jpg'
+        cover:'/assets/images/b6.jpg'
     },
     {
         id:2,
