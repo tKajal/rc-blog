@@ -2,6 +2,7 @@ import React, { Component, createRef } from 'react';
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
 import { Toast } from 'primereact/toast';
+import './Styles.css'
 export class Login extends Component {
     constructor() {
         super();
@@ -59,7 +60,7 @@ export class Login extends Component {
                         </small> */}
                     </div>
                     <div className="btn-wrap gap-2">
-                        <Button appearance="green"> Login </Button>
+                        <Button className='btn-bgcolor' label="Login" raised />
                     </div>
                 </form>
             </div>

@@ -10,9 +10,10 @@ body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.7;
   font-size: 14px;
+  background-color: #acb7c200 !important;
 }
 
-#root{
+#root {
   height: auto !important;
 }
 
@@ -20,25 +21,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 @media (min-width: 1200px) {
   .container {
-      width: 1170px;
+    width: 1170px;
   }
 }
 
 @media (min-width: 992px) {
   .container {
-      width: 970px;
+    width: 970px;
   }
 }
+
 @media (min-width: 768px) {
   .container {
-      width: 750px;
+    width: 750px;
   }
 }
 
 /* Navbar css */
-.nav-wrap, .p-menubar{
-  background-color: #2E3944;
+.nav-wrap,
+.p-menubar {
+  background-color: transparent;
   text-decoration: none;
 }

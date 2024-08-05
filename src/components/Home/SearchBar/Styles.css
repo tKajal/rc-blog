@@ -1,6 +1,6 @@
 .search-wrap {
 
-    background-color: #d3d9d43d;
+    background-color: #020b280d;
     width: fit-content;
     margin: 2.5rem auto 4rem auto;
     padding: .5rem;
@@ -28,7 +28,7 @@
         border: none;
         padding: .6rem .7rem;
         border-radius: 5px;
-        background-color: #2E3944;
+        background-color: #1f2e5d;
         color: #fff;
         line-height: 1;
     }

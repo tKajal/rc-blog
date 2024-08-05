@@ -1,6 +1,7 @@
 import React from 'react';
 import './Styles.css'
 import TopNav from '../../Common/TopNav/Index';
+import 'animate.css';
 const Header = () =>
 
     <header className='home-header'>
@@ -8,9 +9,12 @@ const Header = () =>
             <TopNav />
         </div>
 
-        <div className='banner-wrap container' >
+        <div className='banner-wrap' >
+            <div className='banner-content'>
             <h1>Connecting <span> People, Projects and Products </span> worldwide</h1>
             <p>Get the email newsletter and unlock access to members-only content and updates</p>
+            </div>
+           
         </div>
 
     </header>

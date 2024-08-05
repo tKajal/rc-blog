@@ -55,10 +55,10 @@ const Contact = () => {
             <div className="contact-wrap mt-5 contact-margin">
                 <div className="row justify-content-center">
                     <div className="col-lg-6 text-lg-start m-auto">
-                        <h2>Contact US</h2>
+                        <h2 className='text-primary-color'>Contact US</h2>
                         <p>We are here to help and answer any questions you might have. We look forward to hearing from you!</p>
                         <div className="col-lg-6 col-md-6 text-md-start">
-                            <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">
+                            <h4 className="section-title ff-secondary text-start text-primary-color fw-normal mb-4">
                                 Contact
                             </h4>
                             {contactInfo.map((info, index) => (
@@ -135,7 +135,7 @@ const Contact = () => {
                                             required
                                         ></textarea>
                                     </div>
-                                    <button type="submit" className="btn btn-primary w-100">Submit</button>
+                                    <button type="submit" className="btn send-btn w-100">Submit</button>
                                 </form>
                             </div>
                             <div className="card-footer text-center py-3">

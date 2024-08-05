@@ -8,7 +8,7 @@ export const blogListData=[
         authorName:'Adriana Martins',
         authorAvatar:'/assets/images/bavt.jpg',
         createdAt:'January 24, 2023',
-        cover:'/assets/images/b6.jpg'
+        cover:'/assets/images/banner14.jpg'
     },
     {
         id:2,
@@ -19,7 +19,7 @@ export const blogListData=[
         authorName:'iou',
         authorAvatar:'/assets/images/bavt1.jpg',
         createdAt:'March 04, 2024',
-        cover:'/assets/images/b5.jpg'
+        cover:'/assets/images/banner18.jpg'
     },
     {
         id:3,
@@ -30,7 +30,7 @@ export const blogListData=[
         authorName:'Adriana Martins',
         authorAvatar:'/assets/images/bavt.jpg',
         createdAt:'January 24, 2023',
-        cover:'/assets/images/b4.jpg'
+        cover:'/assets/images/banner20.avif'
     }
 ]
 export const featurBlogs=[

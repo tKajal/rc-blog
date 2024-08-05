@@ -86,7 +86,7 @@ export class Register extends Component {
                         </small> */}
                     </div>
                     <div className="btn-wrap gap-2">
-                        <Button label="Register" raised />
+                        <Button className='btn-bgcolor' label="Register" raised />
                     </div>
                 </form>
             </div>

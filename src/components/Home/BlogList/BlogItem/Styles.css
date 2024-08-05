@@ -33,7 +33,7 @@
         overflow: hidden;
         font-size: 0.8rem;
         padding-right: 0.6rem;
-        color: #6B6B6B;
+        color: #1f2850;
         line-height: 1.7;
     }
 
@@ -41,7 +41,8 @@
         padding: 45px 50px;
         border-top: none;
         text-align: justify;
-        background-color: #fff;
+        background-color: #020b2808;
+        color: #1f2850;
         border: none;
         border-top: none;
         margin: 0 auto 70px;
@@ -55,7 +56,7 @@
     }
 
     .blog-item-title {
-        color: #444;
+        color: #1f2850;
         font-size: 28px;
         margin-bottom: 30px;
         line-height: 1.1;
@@ -74,7 +75,7 @@
     }
 
     .blog-author {
-        display: flex;
+       /* // display: flex; */
         align-items: center;
         justify-content: space-between;
         margin-top: 1rem;
@@ -89,23 +90,26 @@
 
         p {
             font-size: .6rem;
-            color: #a9a9a9;
+            color: #1f2850;
             font-weight: 600;
         }
     }
 }
 .more-btn{
-    background-color: #4b4870;
+    /* background-color: #1f2e5d; */
+    background-color: #1f2850;
+    border-radius: 4px;
+    color: #1f223f !important;
     position: absolute;
-    left: 50%;
-    bottom: -20px;
+    left: 90%;
+    /* bottom: -20px; */
+    font-weight: 600;
+    margin-top: 20px;
     z-index: 3;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     white-space: nowrap;
     display: inline-block;
-    color: #fff;
+    color: #fff !important;
     font-size: 15px;
     padding: 8px 25px;
     letter-spacing: .5px;

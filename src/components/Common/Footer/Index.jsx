@@ -47,13 +47,13 @@ export default class Footer extends Component {
         return (
             <React.Fragment>
       <div
-        className="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+        className="container-fluid footer-bg text-light footer pt-5 mt-5 wow fadeIn"
         data-wow-delay="0.1s"
       >
         <div className="container py-5">
           <div className="row g-5">
             <div className="col-lg-3 col-md-6">
-              <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">
+              <h4 className="section-title ff-secondary text-start fw-normal mb-4">
                 Company
               </h4>
               {this.companyLinks.map((link, index) => (
@@ -68,7 +68,7 @@ export default class Footer extends Component {
               ))}
             </div>
             <div className="col-lg-3 col-md-6 text-md-start">
-              <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">
+              <h4 className="section-title ff-secondary text-start  fw-normal mb-4">
                 Contact
               </h4>
               {this.contactInfo.map((info, index) => (
@@ -93,7 +93,7 @@ export default class Footer extends Component {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 text-md-start">
-              <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">
+              <h4 className="section-title ff-secondary text-start fw-normal mb-4">
                 Category
               </h4>
               {this.categories.map((cat, index) => (
@@ -104,7 +104,7 @@ export default class Footer extends Component {
               ))}
             </div>
             <div className="col-lg-3 col-md-6 text-md-start">
-              <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">
+              <h4 className="section-title ff-secondary text-start fw-normal mb-4">
                 Send Feedback
               </h4>
               <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
@@ -119,7 +119,7 @@ export default class Footer extends Component {
                 />
                 <button
                   type="button"
-                  className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                  className="send-btn btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
                 >
                   send
                 </button>

@@ -1,23 +1,111 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes rotateIn {
+    from {
+      transform: rotate(-200deg);
+      opacity: 0;
+    }
+    to {
+      transform: rotate(0);
+      opacity: 1;
+    }
+  }
+  @keyframes zoomIn {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes flipIn {
+    from {
+      transform: rotateX(90deg);
+      opacity: 0;
+    }
+    to {
+      transform: rotateX(0);
+      opacity: 1;
+    }
+  }
+  
 .home-header{
     text-align: center;
+    background: black;
+    /* padding: 50px;
+    width: 98.8vw; */
+    /* //height: 100vh; */
+    background-image: url('../../../../public/assets/images/banner25.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     p{
         color: #acb7c2;
         font-weight: 500;
+      /* //  font-size: 3em; */
+        color: white;
+        /* animation: fadeIn 2s ease-in-out; */
+        animation: zoomIn 1s ease-in-out;
+        /* animation: bounce 2s; */
     }
     h2{
         color: #0080FF;
         font-size: 2rem;
+        font-size: 3em;
+        color: white;
+      
     }
     h1{
+        width: 80%;
         font-size: 3rem;
-        color: #124E66;
+        color: #faed26;
         margin-bottom: 1rem;
         margin-top: 3rem;
         font-weight: 700 !important;
+        /* animation: fadeIn 2s ease-in-out; */
         /* padding: 0 4rem; */
+        /* animation: slideInLeft 1s ease-in-out; */
+        /* animation: rotateIn 1s ease-in-out; */
+        animation: zoomIn 1s ease-in-out;
+        /* animation: flipIn 1s ease-in-out; */
         span{
             color: #acb7c2;
             text-transform: lowercase;
+            /* animation: fadeIn 2s ease-in-out; */
+            animation: zoomIn 1s ease-in-out;
         }
     }
 }
@@ -27,7 +115,19 @@
     background: none;
 }
 .banner-wrap{
-    width: 80% !important;
-    padding-top: 100px !important;
-   
+    padding-top: 138px !important;
+    padding-bottom: 69px;
+    /* background: #46344ebd; */
+    background: #46344e70;
+    /* padding: 93px; */
+    /* background: #46344e78 !important; */
+    margin-top: -2px;
+    width: 100%;
+}
+.banner-content{
+    width: 93%;
+    margin: auto;
+    padding: 100px;
+    text-align: start;
+    padding-top: 10px;
 }

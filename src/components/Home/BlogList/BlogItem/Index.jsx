@@ -14,8 +14,8 @@ const BlogItem = ({ blog }) => {
         <div className='blog-footer'>
 
           <div className='blog-author'>
-            <img src={blog.authorAvatar} alt="avt" />
-            <h6>By : {blog.authorName}</h6>
+            {/* <img src={blog.authorAvatar} alt="avt" /> */}
+            <h6>Author : {blog.authorName}</h6>
             <p>{blog.createdAt}</p>
           </div>
         </div>

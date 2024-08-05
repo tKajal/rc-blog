@@ -43,6 +43,7 @@ img.flag {
     margin-bottom: 0;
     font-weight: 500;
     color: #fff;
+    background: linear-gradient(to right, #1f1c37e8 10%, #1f223d 60%, #1f223f 50%);
 }
 .p-menuitem-text,.p-menuitem-link, .p-menubar-start{
     color: #fff;
@@ -50,4 +51,33 @@ img.flag {
 }
 .p-menubar-root-list{
    margin-bottom: 0;
+}
+.navbar {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(to right, #ff7e5f 50%, #feb47b 50%); */
+}
+
+.p-menubar a:hover {
+    transition: all 0.3s ease-in-out;
+    color: #1f2850 !important;
+    transform: scale(1.1);
+}
+.p-menuitem-content:hover{
+    
+    transition: all 0.3s ease-in-out;
+    background-color: transparent !important;
+    color: #fff !important;
+    .p-menuitem-text,.p-menuitem-link{
+        color: #fff !important;
+    }
+   
+    transform: scale(1.1);
+}
+.p-menubar a.active {
+    color: #fff !important;
+    background-color: transparent !important;
+    transition: all 0.3s ease-in-out;
 }
