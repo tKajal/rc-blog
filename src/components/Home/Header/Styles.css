@@ -131,3 +131,13 @@
     text-align: start;
     padding-top: 10px;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  h1{
+    font-size: 2rem !important;
+    margin-top: 0 !important;
+  }
+  .banner-content {
+    padding: 50px !important;
+  }
+}

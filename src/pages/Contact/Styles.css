@@ -89,8 +89,15 @@
 .send-btn {
   background: #1f2850;
   color: #fff;
-  padding: 10px 0px;
+  padding: 10px 14px;
 }
 .text-primary-color{
   color: #1f2850;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .send-btn {
+    padding: 13px 14px !important;
+    line-height: 1;
+    font-size: 15px;
+  }
 }

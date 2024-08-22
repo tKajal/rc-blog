@@ -1,13 +1,15 @@
 .feature-blogs {
     width: 30%;
 }
-.feature-blog-card{
+
+.feature-blog-card {
     background-color: #fff;
     padding: 30px;
     border: 1px solid #DADADA;
     overflow: hidden;
     clear: both;
 }
+
 .blog-card {
     /* background: #fff9f3; */
     /* background: #1f2e5d; */
@@ -118,7 +120,8 @@
         }
     }
 }
-.border{
+
+.border {
     display: block;
     height: 0;
     background: #ff4c60;
@@ -138,4 +141,10 @@
     -ms-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .feature-blogs {
+        width: 90%;
+    }
 }

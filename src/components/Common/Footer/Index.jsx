@@ -67,7 +67,7 @@ export default class Footer extends Component {
                 </Link>
               ))}
             </div>
-            <div className="col-lg-3 col-md-6 text-md-start">
+            <div className="col-lg-3 col-md-6 text-md-start cont-block">
               <h4 className="section-title ff-secondary text-start  fw-normal mb-4">
                 Contact
               </h4>
@@ -92,7 +92,7 @@ export default class Footer extends Component {
                 ))}
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-md-start">
+            <div className="col-lg-3 col-md-6 text-md-start cat-block">
               <h4 className="section-title ff-secondary text-start fw-normal mb-4">
                 Category
               </h4>

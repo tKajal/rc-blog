@@ -146,3 +146,16 @@
 .footer-bg{
   background: #1f223f;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .send-btn {
+    padding: 10px 14px !important;
+  }
+  .cat-block{
+    text-align: justify !important;
+  }
+  .cont-block{
+    text-align: justify !important;
+  }
+}
+

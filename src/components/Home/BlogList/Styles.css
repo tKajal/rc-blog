@@ -5,8 +5,10 @@
     margin-left: 15px;
 }
 
-@media(max-width=768px){
+
+@media (min-width: 320px) and (max-width: 768px) {
     .blog-wrap{
         grid-template-columns: repeat(1,1fr);
-    }
-}
+        width: 90% !important;
+    }     
+  }

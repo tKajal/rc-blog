@@ -114,3 +114,20 @@
     padding: 8px 25px;
     letter-spacing: .5px;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .blog-item-detail {
+        padding: 30px !important; 
+    }
+    .blog-item-title {
+        font-size: 18px !important;
+    }     
+    
+    .more-btn {
+        left: 80%;
+        font-size: 13px;
+        padding: 8px 12px;
+        margin-top: 0;
+    }
+  }

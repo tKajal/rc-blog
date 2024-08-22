@@ -45,7 +45,7 @@ img.flag {
     color: #fff;
     background: linear-gradient(to right, #1f1c37e8 10%, #1f223d 60%, #1f223f 50%);
 }
-.p-menuitem-text,.p-menuitem-link, .p-menubar-start{
+.p-menuitem-text,.p-menuitem-link, .p-menubar-start,.p-menubar-button{
     color: #fff;
     text-decoration: none;
 }
@@ -80,4 +80,14 @@ img.flag {
     color: #fff !important;
     background-color: transparent !important;
     transition: all 0.3s ease-in-out;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .p-menuitem-text,.p-menuitem-link{
+    color: #1f2e5d !important;
+    }
+    .nav-wrap{
+        margin-bottom: 0;
+        font-weight: 500;
+        color: #fff !important;
+    }   
 }
