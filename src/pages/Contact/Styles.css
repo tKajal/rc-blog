@@ -60,7 +60,7 @@
 }
 
 .contact-margin {
-  margin-top: 200px !important;
+  margin-top: 160px !important;
 }
 
 .btn.btn-social {
@@ -100,4 +100,16 @@
     line-height: 1;
     font-size: 15px;
   }
+  .contact-summ{
+    margin-bottom: 50px !important;
+  }
+
+  .contact-margin {
+    margin-top: 130px !important;
+}
+
+.cont-head{
+  font-size: 30px !important;
+    margin-bottom: 40px !important;
+}
 }

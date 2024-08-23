@@ -70,7 +70,7 @@ export class Login extends Component {
     render() {
         let content = (this.state.loginSuccessfull) ? this.nextPage() : this.loginForm();
         return (
-            <div>
+            <div className='login-container'>
                 {this.state.message}
                 {content}
             </div>

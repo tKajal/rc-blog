@@ -7,7 +7,7 @@ form{
     display: grid;
 }
 .reg-wrap{
-    width: 50%;
+    width: 85%;
     margin: 60px auto;
     padding: 50px;
     max-width: 530px;
@@ -32,3 +32,20 @@ form{
     padding: 15px 28px;
     line-height: 1;
 }
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .btn-wrap {
+        text-align: center !important; 
+        width: 100% !important;
+        margin: 20px auto !important;
+    }
+    .reg-wrap {
+        width: 85% !important;
+        padding: 25px !important;
+    }
+  }

@@ -33,3 +33,20 @@ form{
     line-height: 1;
     font-weight: normal;
 }
+.reg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .btn-wrap {
+        text-align: center !important; 
+        width: 100% !important;
+        margin: 20px auto !important;
+    }
+    .reg-wrap {
+        width: 85% !important;
+        padding: 25px !important;
+    }
+  }

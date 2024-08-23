@@ -96,7 +96,7 @@ export class Register extends Component {
     render() {
         let content = (this.state.registration) ? this.showFinalData() : this.registerForm();
         return (
-            <div>
+            <div className='reg-container'>
                 {content}
             </div>
         );

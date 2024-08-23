@@ -54,8 +54,8 @@ const Contact = () => {
             </div>
             <div className="contact-wrap mt-5 contact-margin">
                 <div className="row justify-content-center">
-                    <div className="col-lg-6 text-lg-start m-auto">
-                        <h2 className='text-primary-color'>Contact US</h2>
+                    <div className="contact-summ col-lg-6 text-lg-start m-auto">
+                        <h2 className='cont-head text-primary-color'>Contact US</h2>
                         <p>We are here to help and answer any questions you might have. We look forward to hearing from you!</p>
                         <div className="col-lg-6 col-md-6 text-md-start">
                             <h4 className="section-title ff-secondary text-start text-primary-color fw-normal mb-4">
