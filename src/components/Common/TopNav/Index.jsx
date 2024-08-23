@@ -26,12 +26,7 @@ export default function TopNav() {
 
     );
     const items = [
-        {
-            label: 'Home',
-            routeUrl: '/',
-            template: itemRenderer
-            // icon: 'pi pi-home'
-        },
+       
         {
             label: 'Home',
             routeUrl: '/home',
